@@ -11,6 +11,12 @@ const sideBar = () => {
             </div>
             <div className="sidebarItem">
             <span className="sidebarTitle">Categories</span>
+            <ul className="sidebarList">
+                <li className="sidebarListItem">Life</li>
+                <li className="sidebarListItem">Music</li>
+                <li className="sidebarListItem">Style</li>
+                <li className="sidebarListItem">Sport</li>
+            </ul>
             </div>
         </div>
     )
