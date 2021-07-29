@@ -8,3 +8,9 @@
     font-family: 'Lora', serif;
     color: crimson;
 }
+.headerTitleSm{
+    position:absolute;
+    top: 18px;
+    font-size:20px;
+    
+}
