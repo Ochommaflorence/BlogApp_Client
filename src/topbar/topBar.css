@@ -8,3 +8,9 @@
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
 }
+.topLeft,.topRight{
+    flex:3
+}
+.topCenter{
+    flex:6
+}
