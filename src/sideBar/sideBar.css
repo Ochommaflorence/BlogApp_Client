@@ -20,7 +20,7 @@
 .sidebarTitle{
     margin: 10px;
     padding:5px;
-    width: 80px;
+    width: 250px;
     border-top: 1px solid #a7a4a4;
     border-bottom: 1px solid #a7a4a4;
     font-family: 'Varela Round', sans-serif;
@@ -49,4 +49,11 @@
     width: 50%;
     margin-top: 15px;
     cursor: pointer;
+}
+.sidebarSocial {
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
