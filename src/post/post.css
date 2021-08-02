@@ -1,6 +1,11 @@
 .post{
     width: 385px;
     margin: 0px 25px 40px 25px;
-    
 
+
+}
+.postImg{
+    width: 100%;
+    height: 280px;
+    object-fit:cover;
 }
