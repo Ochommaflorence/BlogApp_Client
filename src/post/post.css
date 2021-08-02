@@ -20,5 +20,9 @@
     align-items:center;
 }
 .postCategories{
-    font-family: 'Varela';
+    font-family: 'Varela Round', sans-serif;
+    font-size:11px;
+    color: crimson;
+    line-height: 20px;
+    
 }
