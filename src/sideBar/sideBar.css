@@ -40,3 +40,13 @@
 .sidebarItem > p{
     padding: 30px;
 }
+.sidebarList{
+  list-style: none;
+  margin-bottom: 30px;
+}
+.sidebarListItem {
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+}
