@@ -1,6 +1,6 @@
-import './post.css';
+import './Post.css';
 
-const post = () => {
+const Post = () => {
   return (
     <div className="post">
       <img 
@@ -13,10 +13,10 @@ const post = () => {
         </div>
         <span className="postTitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span>
         <hr />
-        <span className="postDate"></span>
+        <span className="postDate">1 hour ago</span>
       </div>
     </div>
   );
 }
 
-export default post;
+export default Post;
