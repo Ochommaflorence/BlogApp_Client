@@ -60,4 +60,5 @@
 .sidebarIcon{
     font-size: 16px;
     margin-left: 15px;
+    cursor: pointer;
 }
