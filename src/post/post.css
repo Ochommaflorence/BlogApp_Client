@@ -8,4 +8,14 @@
     width: 100%;
     height: 280px;
     object-fit:cover;
+    border-radius:7px;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+    -ms-border-radius:7px;
+    -o-border-radius:7px;
+}
+.postInfo{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
