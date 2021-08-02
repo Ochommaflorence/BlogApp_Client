@@ -1,9 +1,9 @@
-import React from 'react';
+import './post.css';
 
 const post = () => {
   return (
-    <div>
-      
+    <div className="post">
+      post
     </div>
   );
 }
