@@ -8,10 +8,11 @@ const SinglePost = () => {
           <h1 className="singlePostTitle">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
               <div className="singlePostEdit">
-              <i class="far fa-edit"></i>
-              <i class="far fa-trash-alt"></i>
+              <i className="singlePostIcon far fa-edit"></i>
+              <i className="singlePostIcon far fa-trash-alt"></i>
               </div>
           </h1>
+          <div className="singlePostInfo"></div>
       </div>
     </div>
   );
