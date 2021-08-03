@@ -5,10 +5,11 @@ const Write = () => {
     <div className="write">
     <form className="writeForm">
         <div className="writeFormGroup">
-            <label htmlFor="fileInput"></label>
+            <label htmlFor="fileInput">
             <i className="fas fa-plus"></i>
-            <input type="file" id="fileInput" />
-            <input type="text" placeholder="Title" />
+            </label>
+            <input type="file" id="fileInput" style={{display: 'none'}} />
+            <input type="text" placeholder="Title" className="writeInput" />
         </div>
     </form>
     </div>
