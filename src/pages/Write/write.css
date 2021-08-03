@@ -3,7 +3,7 @@
 
 }
 .writeForm{
-
+position: relative;
 }
 .writeFormGroup{
     margin-left: 150px;
@@ -39,4 +39,8 @@
 }
 .writeText{
     font-size:20px;
+}
+.writeSubmit{
+    position:absolute;
+    margin-top: 20px;
 }
