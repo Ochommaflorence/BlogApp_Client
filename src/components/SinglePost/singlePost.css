@@ -35,3 +35,11 @@
 .singlePostIcon:last-child{
    color: crimson;
 }
+.singlePostInfo{
+    margin-bottom: 20px;
+    display:flex;
+    justify-content:space-between;
+    font-size:16px;
+    color: goldenrod;
+    font-family: 'Varela Round', sans-serif;
+}
