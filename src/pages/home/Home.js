@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../../header/Header'
-import Posts from '../../posts/Posts'
-import SideBar from '../../sideBar/SideBar'
+import Header from '../../components/header/Header'
+import Posts from '../../components/posts/Posts'
+import SideBar from '../../components/sideBar/SideBar'
 
 import './Home.css'
 
