@@ -12,7 +12,10 @@ const SinglePost = () => {
               <i className="singlePostIcon far fa-trash-alt"></i>
               </div>
           </h1>
-          <div className="singlePostInfo"></div>
+          <div className="singlePostInfo">
+              <span className="singlePostAuthor">Author: <b>Florrie</b></span>
+              <span className="singlePostDate">1 hour ago</span>
+          </div>
       </div>
     </div>
   );
