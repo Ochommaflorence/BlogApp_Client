@@ -43,3 +43,13 @@
     color: goldenrod;
     font-family: 'Varela Round', sans-serif;
 }
+.singlePostDescrition{
+    color: #444;
+    font-size:16px;
+    line-height: 25px;
+}
+.singlePostDescrition::first-letter{
+    margin-left: 20px;
+    font-size:30px;
+    font-weight: 600;
+}
