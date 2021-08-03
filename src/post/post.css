@@ -46,4 +46,6 @@
 .postDescription{
     font-family: 'Varela Round', sans-serif;
     font-size: 14px;
+    color: #444;
+    line-height:24px;
 }
