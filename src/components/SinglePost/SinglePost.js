@@ -4,7 +4,7 @@ const SinglePost = () => {
   return (
     <div className="singlePost">
       <div className="singlePostWrapper">
-          <img src="https://images.pexels.com/photos/4210789/pexels-photo-4210789.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="singlePostImg"/>
+          <img src="https://images.pexels.com/photos/2033981/pexels-photo-2033981.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="singlePostImg"/>
           <h1 className="singlePostTitle">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
               <div className="singlePostEdit">
