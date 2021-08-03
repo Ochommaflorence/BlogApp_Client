@@ -11,7 +11,7 @@ const Post = () => {
           <span className="postCategories">Music</span>
           <span className="postCategories">Life</span>
         </div>
-        <span className="postTitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span>
+        <span className="postTitle">Lorem Ipsum is simply dummy text of the print. </span>
         <hr />
         <span className="postDate">1 hour ago</span>
       </div>
