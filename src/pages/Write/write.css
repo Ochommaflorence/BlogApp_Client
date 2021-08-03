@@ -42,5 +42,16 @@ position: relative;
 }
 .writeSubmit{
     position:absolute;
-    margin-top: 20px;
+    top: 20px;
+    right: 50px;
+    color: #fff;
+    background-color:crimson;
+    padding: 10px;
+    border: none;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    cursor: pointer;
 }
