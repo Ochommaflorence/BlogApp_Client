@@ -9,4 +9,18 @@
     margin-left: 150px;
     display: flex;
     align-items: center;
+   
+}
+.writeIcon{
+    width: 25px;
+    height: 25px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
