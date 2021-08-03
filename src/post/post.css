@@ -38,4 +38,6 @@
 }
 .postDate{
     font-family: 'Lora', sans-serif;
+    font-style: italic;
+    font-size: 13px;
 }
