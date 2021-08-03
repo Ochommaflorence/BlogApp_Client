@@ -14,6 +14,9 @@ const Write = () => {
         <div className="writeFormGroup">
             <textarea placeholder="Tell your story..." type="text" className="writeInput writeText" ></textarea>
         </div>
+        <div className="writeSubmit">
+            Publish
+        </div>
     </form>
     </div>
   );
