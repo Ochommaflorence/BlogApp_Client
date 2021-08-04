@@ -5,7 +5,7 @@ const Write = () => {
     <div className="write">
         <img 
         className="writeImg"
-        src="https://images.pexels.com/photos/4321565/pexels-photo-4321565.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="writeImg" />
+        src="https://images.pexels.com/photos/327394/pexels-photo-327394.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="writeImg" />
     <form className="writeForm">
         <div className="writeFormGroup">
             <label htmlFor="fileInput">
