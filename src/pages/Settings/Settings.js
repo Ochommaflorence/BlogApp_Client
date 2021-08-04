@@ -12,11 +12,13 @@ export const Settings = () => {
                 <form  className="settingsForm">
                     <label>Profile Picture</label>
                     <div className="settingPP">
-                        <img src="https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500l" alt="" />
+                        <img src="https://images.pexels.com/photos/327394/pexels-photo-327394.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="settingsImg" />
                         <label htmlFor="fileInput">
-                        <i className="settingsIcon far fa-user-circle"></i>
+                        <i className="settingsPPIcon far fa-user-circle"></i>
                         </label>
+                        <input type="file" id="fileInput" style={{display:'none'}} />
                     </div>
+                      <label>Username</label>
                 </form>
             </div>
             <SideBar/>
