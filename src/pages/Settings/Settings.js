@@ -14,7 +14,7 @@ export const Settings = () => {
                     <div className="settingPP">
                         <img src="https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500l" alt="" />
                         <label htmlFor="fileInput">
-                        <i className="far fa-user-circle"></i>
+                        <i className="settingsIcon far fa-user-circle"></i>
                         </label>
                     </div>
                 </form>
