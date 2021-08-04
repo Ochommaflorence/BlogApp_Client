@@ -4,6 +4,14 @@
 }
 .writeImg{
     margin-left: 150px;
+    width:70vw;
+    height: 250px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    object-fit:cover;
 }
 .writeForm{
 position: relative;
