@@ -19,6 +19,11 @@ export const Settings = () => {
                         <input type="file" id="fileInput" style={{display:'none'}} />
                     </div>
                       <label>Username</label>
+                      <input type="text" placeholder="florrie" />
+                      <label>Email</label>
+                      <input type="text" placeholder="florrie@gmail.com" />
+                      <label>Password</label>
+                      <input type="password" />
                 </form>
             </div>
             <SideBar/>
