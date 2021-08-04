@@ -54,4 +54,5 @@ position: relative;
     -ms-border-radius:5px;
     -o-border-radius:5px;
     cursor: pointer;
+    font-size: 16px;
 }
