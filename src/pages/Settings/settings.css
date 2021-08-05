@@ -64,4 +64,20 @@
 .settingsForm > input {
     color: gray;
     margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    outline: none; 
+}
+.settingsSubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+    background-color: crimson;
 }
