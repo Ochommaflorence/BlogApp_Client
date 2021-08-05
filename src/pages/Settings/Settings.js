@@ -24,6 +24,7 @@ export const Settings = () => {
                       <input type="text" placeholder="florrie@gmail.com" />
                       <label>Password</label>
                       <input type="password" />
+                      <button className="settingsSubmit">Update</button>
                 </form>
             </div>
             <SideBar/>
