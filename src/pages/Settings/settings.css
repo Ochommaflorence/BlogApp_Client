@@ -57,4 +57,11 @@
     justify-content:center;
     cursor: pointer;
 }
-.settingsForm{}
+.settingsForm > label {
+    font-size :20px;
+    margin-top: 20px;
+}
+.settingsForm > input {
+    color: gray;
+    margin: 10px 0;
+}
