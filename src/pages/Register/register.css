@@ -1,4 +1,4 @@
-.login{
+.register{
     height: calc(100vh - 50px);
     display: flex;
     flex-direction: column;
@@ -8,24 +8,24 @@
     background-size: cover;
     background-repeat: no-repeat
 }
-.loginTitle{
+.registerTitle{
     font-size :50px;
 }
-.loginForm{
+.registerForm{
     margin-top: 20px;
     display: flex;
     flex-direction:column;
 }
-.loginForm > label{
+.registerForm > label{
     margin: 10px 0;
     color: #fff;
     }
-.loginInput{
+.registerInput{
     padding: 10px;
     background-color:white;
     border: none;
 }    
-.loginButton{
+.registerButton{
     margin-top: 20px;
     cursor: pointer;
     background-color:crimson;
@@ -39,7 +39,7 @@
     padding: 10px;
 }
 
-.loginRegisterButton{
+.registerLoginButton{
     position: absolute;
     top: 60px;
     right: 20px;
