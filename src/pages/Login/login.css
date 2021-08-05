@@ -7,3 +7,19 @@
     background-size: cover;
     background-repeat: no-repeat
 }
+.loginTitle{
+    font-size :50px;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction:column;
+}
+.loginForm > label{
+    margin: 10px 0;
+    }
+.loginInput{
+    padding: 10px;
+    background-color:white;
+    border: none;
+}    
