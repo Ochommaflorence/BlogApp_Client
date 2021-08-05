@@ -3,4 +3,17 @@
 }
 .settingsWrapper{
     flex: 9;
+    padding:20px;
+}
+
+.settingsTitle{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.settingsUpdateTitle{
+    font-size:30px;
+    margin-bottom: 20px;
+    color: crimson;
 }
