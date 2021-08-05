@@ -4,6 +4,7 @@ import TopBar from './components/topbar/TopBar';
 import Single from './pages/Singlepage/Single';
 import Write from './pages/Write/Write';
 import { Settings } from './pages/Settings/Settings';
+import { Login } from './pages/Login/Login';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
      <TopBar/>
      {/* <Home/> */}
      {/* <Write/> */}
-     <Settings/>
+     {/* <Settings/> */}
+     <Login/>
    </div>
   );
 }
