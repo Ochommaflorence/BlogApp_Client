@@ -5,11 +5,17 @@ export const Register = () => {
     <div className="register">
       <span className="registerTitle">Register</span>
       <form className="registerForm">
+      <label>Username</label>
+        <input
+          type="text"
+          className="registerInput"
+          placeholder="Enter Your usernames..."
+        />
         <label>Email</label>
         <input
           type="text"
           className="registerInput"
-          placeholder="Enter Your Email"
+          placeholder="Enter Your Email..."
         />
         <label>Password</label>
         <input
