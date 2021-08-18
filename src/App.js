@@ -11,14 +11,19 @@ import { Register } from './pages/Register/Register';
 
 function App() {
   return (
-   <div>
+   <Router>
      <TopBar/>
-     {/* <Home/> */}
+     <Switch>
+       <Route path="/">
+       <Home/>
+       </Route>
+
      {/* <Write/> */}
      {/* <Settings/> */}
      {/* <Login/> */}
+     </Switch>
      <Register/>
-   </div>
+   </Router>
   );
 }
 
