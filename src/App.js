@@ -10,6 +10,7 @@ import { Register } from './pages/Register/Register';
 
 
 function App() {
+  const user = true;
   return (
    <Router>
      <TopBar/>
@@ -19,11 +20,11 @@ function App() {
        </Route>
 
        <Route  path="/register">
-       <Register/>
+       {user ? <Home/> : <Register/>}
        </Route>
 
        <Route  path="/login">
-       <Login/>
+       {user ? <Home/> : <Login/>}
        </Route>
        
        <Route path="/write">
