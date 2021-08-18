@@ -18,9 +18,23 @@ function App() {
        <Home/>
        </Route>
 
-     {/* <Write/> */}
-     {/* <Settings/> */}
-     {/* <Login/> */}
+       <Route  path="/register">
+       <Register/>
+       </Route>
+
+       <Route  path="/login">
+       <Login/>
+       </Route>
+       
+       <Route path="/write">
+       <Write/>
+       </Route>
+
+       <Route path="/setting">
+       <Settings/>
+       </Route>
+    
+     
      </Switch>
      <Register/>
    </Router>
