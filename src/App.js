@@ -30,11 +30,13 @@ function App() {
        <Write/>
        </Route>
 
-       <Route path="/setting">
+       <Route path="/settings">
        <Settings/>
        </Route>
     
-     
+       <Route path="/post/:postId">
+       <Single/>
+       </Route>
      </Switch>
      <Register/>
    </Router>
