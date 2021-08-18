@@ -5,6 +5,7 @@ import Single from './pages/Singlepage/Single';
 import Write from './pages/Write/Write';
 import { Settings } from './pages/Settings/Settings';
 import { Login } from './pages/Login/Login';
+import { Register } from './pages/Register/Register';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
      {/* <Home/> */}
      {/* <Write/> */}
      {/* <Settings/> */}
-     <Login/>
+     {/* <Login/> */}
+     <Register/>
    </div>
   );
 }
