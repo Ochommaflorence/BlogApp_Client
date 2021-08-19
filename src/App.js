@@ -28,7 +28,7 @@ function App() {
        </Route>
        
        <Route path="/write">
-       <Write/>
+       {user ? <Write/> : <Register/>} 
        </Route>
 
        <Route path="/settings">
