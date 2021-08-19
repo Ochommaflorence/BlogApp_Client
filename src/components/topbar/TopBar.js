@@ -40,10 +40,14 @@ const TopBar = () => {
                 alt="logo"
               />
               ) : (
-              <>
+              <ul className="topList">
+                  <li className="topListItem">
               <Link to="/login" className="Link">LOGIN</Link>
+              </li>
+            <li className="topListItem">
               <Link to="/register" className="Link">REGISTER</Link>
-              </>
+              </li>
+              </ul>
               )
           }
       
