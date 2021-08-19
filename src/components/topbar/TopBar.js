@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./topBar.css";
 
 const TopBar = () => {
-    const user = true;
+    const user = false;
   return (
     <div className="top">
       <div className="topLeft">
@@ -18,25 +18,35 @@ const TopBar = () => {
             <Link to="/" className="Link">Home</Link>
           </li>
           <li className="topListItem">
-          <Link to="/" className="Link">About</Link>
+          <Link to="/about" className="Link">About</Link>
           </li>
           <li className="topListItem">
-          <Link to="/" className="Link">Contact</Link>
+          <Link to="/contact" className="Link">Contact</Link>
           </li>
           <li className="topListItem">
-          <Link to="/" className="Link">Write</Link>
+          <Link to="/write" className="Link">Write</Link>
           </li>
           <li className="topListItem">
-          <Link to="/" className="Link"> LogOut </Link>
+        {user && "LOGOUT"}
           </li>
         </ul>
       </div>
       <div className="topRight">
-        <img
-          className="topImg"
-          src="https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500l"
-          alt="logo"
-        />
+          {
+              user ? (
+                <img
+                className="topImg"
+                src="https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500l"
+                alt="logo"
+              />
+              ) : (
+              <>
+              <Link to="/login" className="Link">LOGIN</Link>
+              <Link to="/register" className="Link">REGISTER</Link>
+              </>
+              )
+          }
+      
         <i className="topSearchIcon fas fa-search"></i>
       </div>
     </div>
