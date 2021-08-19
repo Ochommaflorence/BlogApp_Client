@@ -32,7 +32,7 @@ function App() {
        </Route>
 
        <Route path="/settings">
-       <Settings/>
+      {user ? } <Settings/>
        </Route>
     
        <Route path="/post/:postId">
